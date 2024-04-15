@@ -2,7 +2,7 @@ set dotenv-load
 
 export RUGPI_BAKERY_IMAGE := "ghcr.io/silitics/rugpi-bakery:v0.6"
 
-export PREFIX := "tedge_rugpi_"
+export PREFIX := "si_tedge_rugpi_"
 export IMAGE := "tryboot"
 export VERSION := env_var_or_default("VERSION", `date +'%Y%m%d.%H%M'`)
 export IMAGE_NAME := PREFIX + IMAGE + "_" + VERSION
